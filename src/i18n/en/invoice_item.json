@@ -1,0 +1,57 @@
+{
+	"attributes": {
+		"service_type_id": "Service Type",
+		"description": "description",
+		"price": "price",
+		"discount_percentage": "Discount %",
+		"surcharge_percentage": "Surcharge %",
+		"tax_type_id": "Tax %",
+		"total": "total",
+		"net_subtotal": "Net Subtotal"
+	},
+	"tax_types": {
+		"placeholder": {
+			"loading": "Loading tax types...",
+			"single": "Select a tax type",
+			"multiple": "Select tax types"
+		},
+		"error": "Error retrieving tax types"
+	},
+	"service_types": {
+		"placeholder": {
+			"loading": "Loading service types...",
+			"single": "Select a service type",
+			"multiple": "Select service types"
+		},
+		"error": "Error retrieving service types"
+	},
+	"datatable": {
+        "filters": {
+            "search": "Search..."
+        },
+        "currentPageReportTemplate": "Showing {'{first}'} to {'{last}'} of {'{totalRecords}'} invoices",
+        "empty": "No invoices found."
+    },
+	"save": "Save",
+	"accept": "Accept",
+	"actions": "Actions",
+	"store": {
+		"title": "Create invoice line",
+		"success": "Invoice line saved",
+		"error": "Error saving invoice line"
+	},
+	"update": {
+		"title": "Update invoice line",
+		"success": "Invoice line ({id}) updated",
+		"error": "Error updating invoice line ({id})"
+	},
+	"delete": {
+		"title": "Delete invoice line",
+		"confirm": {
+			"message": "Are you sure you want to proceed?",
+			"reject": "Cancel"
+		},
+		"success": "Invoice line #{id} deleted",
+		"error": "Error deleting invoice line ({id})"
+	}
+}

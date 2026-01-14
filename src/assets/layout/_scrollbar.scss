@@ -1,0 +1,28 @@
+@supports (selector(::-webkit-scrollbar)) {
+    ::-webkit-scrollbar {
+        width: .5rem;
+        height: .5rem;
+    }
+
+    ::-webkit-scrollbar-track {
+        // background-color: var(--primary-contrast-color);
+        background-color: var(--surface-overlay);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        // background: var(--text-muted-color);
+        background: var(--surface-border);
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        // // background: var(--text-color);
+        // background: var(--primary-color);
+        background: var(--text-muted-color);
+    }
+}
+
+@supports (not (selector(::-webkit-scrollbar))) {
+    html {
+        scrollbar-color: var(--surface-border) var(--surface-overlay);
+    }
+}

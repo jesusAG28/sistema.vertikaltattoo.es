@@ -1,0 +1,15 @@
+{
+    "image": "image",
+    "validation": {
+        "error": "Error validating {attribute}"
+    },
+    "restore": "Restore initial {attribute}",
+    "clear": "Clear {attribute}",
+    "unlink": "Unlink {attribute}",
+    "choose": "Choose",
+    "drop": "or drop {attribute} here",
+    "save": "Save",
+    "store": {
+        "error": "Error uploading {attribute}"
+    }
+}

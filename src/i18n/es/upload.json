@@ -1,0 +1,15 @@
+{
+    "image": "imagen",
+    "validation": {
+        "error": "Error validando {attribute}"
+    },
+    "restore": "Restaurar {attribute} inicial",
+    "clear": "Descartar {attribute}",
+    "unlink": "Eliminar {attribute}",
+    "choose": "Elija",
+    "drop": "o suelte {attribute} aquí",
+    "save": "Guardar",
+    "store": {
+        "error": "Error subiendo {attribute}"
+    }
+}

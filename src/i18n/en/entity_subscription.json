@@ -1,0 +1,102 @@
+{
+	"attributes": {
+		"active": "active",
+		"entity_id": "Entity",
+		"entity": "Entity",
+		"entities": "Entities",
+		"entities_id": "Entities",
+		"subscription_id": "Subscription",
+		"subscription": "Subscription",
+		"subscriptions_id": "Subscriptions",
+		"subscriptions": "Subscriptions",
+		"discount_percentage": "Discount %",
+		"surcharge_percentage": "Surcharge %",
+		"apply_associated_discount": "Apply Associated Discount",
+		"tax_type_id": "Tax %",
+		"ends_at": "end date",
+		"starts_at": "start date",
+		"created_at": "created",
+		"updated_at": "updated",
+		"year_active": "year",
+		"month_active": "month"
+	},
+	"active": {
+		"options": {
+			"all": "All",
+			"active": "Active",
+			"inactive": "Inactive"
+		}
+	},
+	"entities": {
+		"placeholder": {
+			"loading": "Loading entities...",
+			"single": "Select an entity",
+			"multiple": "Select entities"
+		},
+		"error": "Error retrieving entities"
+	},
+	"subscriptions": {
+		"placeholder": {
+			"loading": "Loading subscriptions...",
+			"single": "Select a subscription",
+			"multiple": "Select subscriptions"
+		},
+		"error": "Error retrieving subscriptions"
+	},
+	"tax_types": {
+		"placeholder": {
+			"loading": "Loading tax types...",
+			"single": "Select a tax type",
+			"multiple": "Select tax types"
+		},
+		"error": "Error retrieving tax types"
+	},
+	"months": {
+		"placeholder": {
+			"loading": "Loading months...",
+			"single": "Select month",
+			"multiple": "Select months"
+		},
+		"error": "Error retrieving months"
+	},
+	"query": {
+		"filters": {
+			"clear": "Clear filters"
+		}
+	},
+	"datatable": {
+		"filters": {
+			"search": "Search..."
+		},
+		"currentPageReportTemplate": "Showing {'{first}'} to {'{last}'} of {'{totalRecords}'} entities with subscriptions",
+		"empty": "No entities with subscriptions found."
+	},
+	"error": "Error retrieving entity subscription ({id})",
+	"actions": "Actions",
+	"search": "Search",
+	"save": "Save",
+	"store": {
+		"title": "Assign a subscription to an entity",
+		"success": "Subscription assigned to entity",
+		"error": "Error assigning subscription"
+	},
+	"import_csv": {
+		"title": "Import CSV",
+		"success": "Imported CSV ",
+		"error": "Error importing the CSV "
+	},
+	"update": {
+		"title": "Update subscription",
+		"success": "Assigned subscription ({id}) updated",
+		"error": "Error updating assigned subscription ({id})"
+	},
+	"delete": {
+		"title": "Delete subscription",
+		"confirm": {
+			"message": "Are you sure you want to proceed?",
+			"reject": "Cancel"
+		},
+		"success": "Assigned subscription ({id}) deleted",
+		"error": "Error deleting assigned subscription ({id})"
+	}
+}

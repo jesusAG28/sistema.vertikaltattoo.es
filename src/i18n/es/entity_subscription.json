@@ -1,0 +1,103 @@
+{
+    "attributes": {
+        "active": "activas",
+        "entity_id": "Entidad",
+        "entity": "Entidad",
+        "entities": "Entidades",
+        "entities_id": "Entidades",
+        "subscription_id": "suscripcion",
+        "subscription": "suscripcion",
+        "subscriptions_id": "suscripciones",
+        "subscriptions": "suscripciones",
+        "discount_percentage": "Descuento %",
+        "surcharge_percentage" : "Recargo %",
+        "apply_associated_discount": "aplicar descuento asociado",
+        "tax_type_id" : "%IVA",
+        "ends_at": "fecha de fin",
+        "starts_at": "fecha inicio",
+        "created_at": "creado",
+        "updated_at": "actualizado",
+        "year_active" : "año",
+        "month_active" : "mes"
+    },
+    "active": {
+        "options": {
+            "all": "Todas",
+            "active": "Activas",
+            "inactive": "Inactivas"
+        }
+    },
+    "entities": {
+        "placeholder": {
+            "loading": "Cargando entidades...",
+            "single": "Seleccione una entidad",
+            "multiple": "Seleccione entidades"
+        },
+        "error": "Error recuperando las entidades"
+    },
+    "subscriptions": {
+        "placeholder": {
+            "loading": "Cargando suscripciones...",
+            "single": "Seleccione una suscripcion",
+            "multiple": "Seleccione suscripciones"
+        },
+        "error": "Error recuperando las suscripciones"
+    },
+    "tax_types" : {
+        "placeholder": {
+            "loading": "Cargando los tipos de IVA...",
+            "single": "Seleccione un tipo de IVA",
+            "multiple": "Seleccione los tipos de IVA"
+        },
+        "error": "Error recuperando los tipos de IVA"
+    },
+    "months" : {
+        "placeholder": {
+            "loading": "Cargando meses...",
+            "single": "Seleccione un mes",
+            "multiple": "Seleccione meses"
+        },
+        "error": "Error recuperando los meses"
+    },
+    "query": {
+        "filters": {
+            "clear": "Limpiar filtros"
+        }
+    },
+    "datatable": {
+        "filters": {
+            "search": "Buscar..."
+        },
+        "currentPageReportTemplate": "Mostrando {'{first}'} hasta {'{last}'} de {'{totalRecords}'} enitdades con susbcripciones",
+        "empty": "No se encontraron entidades con suscripciónes."
+    },
+    "error": "Error recuperando la entidad con suscripción ({id})",
+    "actions": "Acciones",
+    "search": "Buscar",
+    "save": "Guardar",
+    "import_csv": {
+        "title": "Importar CSV",
+        "success": "CSV importado",
+        "error": "Error importando el CSV",
+        "error_format" : "El fichero deber ser del tipo CSV"
+    },
+    "store": {
+        "title": "Asignar una suscripción a una entidad",
+        "success": "Suscripción asignada a la entidad",
+        "error": "Error asignando la suscripcion"
+    },
+    "update": {
+        "title": "Actualizar suscripción",
+        "success": "Suscripción asignada ({id}) actualizada",
+        "error": "Error actualizando suscripción asignada ({id})"
+    },
+    "delete": {
+        "title": "Eliminar suscripción",
+        "confirm": {
+            "message": "¿Está seguro de que quiere proceder?",
+            "reject": "Cancelar"
+        },
+        "success": "suscripción asignada ({id}) eliminada",
+        "error": "Error eliminando suscripción asignada ({id})"
+    }
+}

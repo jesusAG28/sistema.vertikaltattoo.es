@@ -1,0 +1,76 @@
+{
+    "attributes": {
+        "name": "nombre",
+        "email": "email",
+        "image": "imagen",
+        "role": "rol",
+        "roles": "roles",
+        "active": "activo",
+        "password": "contraseña",
+        "password_confirmation": "confirmación contraseña",
+        "preferences": {
+            "locale": "idioma",
+            "theme": "tema"
+        },
+        "created_at": "creado",
+        "updated_at": "actualizado"
+    },
+    "active": {
+        "options": {
+            "all": "Todos",
+            "active": "Activo",
+            "inactive": "Inactivo"
+        }
+    },
+    "preferences": {
+        "theme": {
+            "options": {
+                "light": "Claro",
+                "dark": "Oscuro"
+            }
+        }
+    },
+    "roles": {
+        "placeholder": {
+            "loading": "Cargando roles...",
+            "single": "Seleccione rol",
+            "multiple": "Seleccione roles"
+        },
+        "error": "Error recuperando roles de usuario"
+    },
+    "query": {
+        "filters": {
+            "clear": "Limpiar filtros"
+        }
+    },
+    "datatable": {
+        "filters": {
+            "search": "Buscar..."
+        },
+        "currentPageReportTemplate": "Mostrando {'{first}'} hasta {'{last}'} de {'{totalRecords}'} usuarios",
+        "empty": "No se encontraron usuarios."
+    },
+    "error": "Error recuperando usuario ({id})",
+    "actions" : "Acciones",
+    "search": "Buscar",
+    "save": "Guardar",
+    "store": {
+        "title": "Crear usuario",
+        "success": "Usuario guardado",
+        "error": "Error guardando usuario"
+    },
+    "update": {
+        "title": "Actualizar usuario",
+        "success": "Usuario ({id}) actualizado",
+        "error": "Error actualizando usuario ({id})"
+    },
+    "delete": {
+        "title": "Eliminar usuario",
+        "confirm": {
+            "message": "¿Está seguro de que quiere proceder?",
+            "reject": "Cancelar"
+        },
+        "success": "Usuario ({id}) eliminado",
+        "error": "Error eliminando usuario ({id})"
+    }
+}

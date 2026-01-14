@@ -1,0 +1,50 @@
+{
+    "attributes": {
+        "issuer_alias": "alias del emisor",
+        "issuer_name": "nombre del emisor",
+        "issuer_crn": "NIF del emisor",
+        "issuer_address": "dirreccion del emisor",
+        "issuer_population": "poblacion del emisor",
+        "issuer_province": "provincia del emisor",
+        "issuer_postal_code": "codigo postal del emisor",
+        "issuer_phone": "telefono del emisor",
+        "issuer_email": "email del emisor"
+    },
+    "query": {
+        "filters": {
+            "clear": "Limpiar filtros"
+        }
+    },
+    "datatable": {
+        "filters": {
+            "search": "Buscar..."
+        },
+        "currentPageReportTemplate": "Mostrando {'{first}'} hasta {'{last}'} de {'{totalRecords}'} configuracion",
+        "empty": "No se encontro la configuracion."
+    },
+    "error": {
+        "default": "Error recuperando la configuracion",
+        "issuer": "Error recuperando los datos del emisor de la configuracion"
+    },
+    "search": "Buscar",
+    "save": "Guardar",
+    "store": {
+        "title": "Crear configuracion",
+        "success": "Configuracion guardada",
+        "error": "Error guardando la configuracion"
+    },
+    "update": {
+        "title": "Actualizar configuracion",
+        "success": "Configuracion actualizada",
+        "error": "Error actualizando la configuracion"
+    },
+    "delete": {
+        "title": "Eliminar configuracion",
+        "confirm": {
+            "message": "¿Está seguro de que quiere proceder?",
+            "reject": "Cancelar"
+        },
+        "success": "Configuracion eliminada",
+        "error": "Error eliminando la configuracion"
+    }
+}

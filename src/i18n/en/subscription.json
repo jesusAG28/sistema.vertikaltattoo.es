@@ -1,0 +1,71 @@
+{
+	"attributes": {
+		"name": "name",
+		"price": "price",
+		"service_type": "service type",
+		"service_type_id": "service type",
+		"billing_cycle": "billing cycle",
+		"billing_cycle_id": "billing cycle",
+		"active": "active",
+		"created_at": "created",
+		"updated_at": "updated"
+	},
+	"active": {
+		"options": {
+			"all": "All",
+			"active": "Active",
+			"inactive": "Inactive"
+		}
+	},
+	"service_types": {
+		"placeholder": {
+			"loading": "Loading types...",
+			"single": "Select type",
+			"multiple": "Select types"
+		},
+		"error": "Error retrieving service types"
+	},
+	"billing_cycles": {
+		"placeholder": {
+			"loading": "Loading billing cycles...",
+			"single": "Select a billing cycle",
+			"multiple": "Select billing cycles"
+		},
+		"error": "Error retrieving billing cycles"
+	},
+	"query": {
+		"filters": {
+			"clear": "Clear filters"
+		}
+	},
+	"datatable": {
+		"filters": {
+			"search": "Search..."
+		},
+		"currentPageReportTemplate": "Showing {'{first}'} to {'{last}'} of {'{totalRecords}'} subscriptions",
+		"empty": "No subscriptions found."
+	},
+	"error": "Error retrieving subscription ({id})",
+	"actions": "Actions",
+	"search": "Search",
+	"save": "Save",
+	"store": {
+		"title": "Create subscription",
+		"success": "Subscription saved",
+		"error": "Error saving subscription"
+	},
+	"update": {
+		"title": "Update subscription",
+		"success": "subscription ({id}) updated",
+		"error": "Error updating subscription ({id})"
+	},
+	"delete": {
+		"title": "Delete subscription",
+		"confirm": {
+			"message": "Are you sure you want to proceed?",
+			"reject": "Cancel"
+		},
+		"success": "subscription ({id}) deleted",
+		"error": "Error deleting subscription ({id})"
+	}
+}

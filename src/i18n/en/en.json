@@ -1,0 +1,79 @@
+{
+    "login": {
+        "title": "Login",
+        "heading": "Enter your username and password to access your account.",
+        "form": {
+            "email": "email",
+            "password": "password",
+            "submit": "Login"
+        },
+        "remember_me": "Remember me",
+        "forgot_password": "Forgot password?",
+        "error": {
+            "summary": "Error logging in",
+            "credentials": {
+                "detail": "Wrong credentials."
+            }
+        }
+    },
+    "forgot_password": {
+        "title": "Forgot Password",
+        "heading": "Enter email to reset password",
+        "form": {
+            "email": "email",
+            "submit": "Submit"
+        },
+        "error": {
+            "summary": "Error requesting password reset link",
+            "credentials": {
+                "detail": "Wrong credentials."
+            }
+        }
+    },
+    "reset_password": {
+        "title": "Reset password",
+        "heading": "Enter new password",
+        "form": {
+            "password": "new password",
+            "password_confirmation": "new password confirmation",
+            "submit": "Reset"
+        },
+        "error": {
+            "summary": "Error reseting password",
+            "credentials": {
+                "detail": "Wrong credentials."
+            }
+        }
+    },
+    "profile": {
+        "personal_information": {
+            "title": "Personal information",
+            "save": "Save",
+            "success": "User personal information saved",
+            "error": "Error saving user personal information"
+        },
+        "preferences": {
+            "title": "Preferences",
+            "save": "Save",
+            "success": "User preferences saved",
+            "error": "Error saving user preferences"
+        },
+        "change_password": {
+            "title": "Change password",
+            "input": {
+                "current": "current password",
+                "password": "new password",
+                "password_confirmation": "new password confirmation"
+            },
+            "save": "Change",
+            "success": "Password changed",
+            "error": "Error changing password"
+        },
+        "logout_other_sessions": {
+            "title": "Logout other sessions",
+            "save": "Logout other sessions",
+            "success": "Other sessions logged out",
+            "error": "Error logging out other sessions"
+        }
+    }
+}

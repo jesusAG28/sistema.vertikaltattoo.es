@@ -1,0 +1,12 @@
+{
+    "title": "Panel de control",
+    "loading": "Cargando...",
+    "refresh": "Actualizar",
+    "no_data":"No hay datos disponibles",
+    "year": "Año",
+    "monthly_comparison": "Evolución mensual comparativa",
+    "service_type": "Tipo de Servicio",
+    "service_type_distribution": "Distribución por tipo de servicio",
+    "overdue_invoices": "Facturas vencidas",
+    "no_overdue_invoices": "No hay facturas vencidas"
+}

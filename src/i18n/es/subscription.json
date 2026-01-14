@@ -1,0 +1,71 @@
+{
+    "attributes": {
+        "name": "nombre",
+        "price": "precio",
+        "service_type": "tipo de servicio",
+        "service_type_id": "tipo de servicio",
+        "billing_cycle": "ciclo de facturación",
+        "billing_cycle_id": "ciclo de facturación",
+        "active": "activa",
+        "created_at": "creado",
+        "updated_at": "actualizado"
+    },
+    "active": {
+        "options": {
+            "all": "Todas",
+            "active": "Activas",
+            "inactive": "Inactivas"
+        }
+    },
+    "service_types": {
+        "placeholder": {
+            "loading": "Cargando tipos...",
+            "single": "Seleccione tipo",
+            "multiple": "Seleccione tipos"
+        },
+        "error": "Error recuperando tipos de servicio"
+    },
+    "billing_cycles": {
+        "placeholder": {
+            "loading": "Cargando ciclos de facturación...",
+            "single": "Seleccione un ciclo de facturación",
+            "multiple": "Seleccione ciclos de facturación"
+        },
+        "error": "Error recuperando los ciclos de facturación"
+    },
+    "query": {
+        "filters": {
+            "clear": "Limpiar filtros"
+        }
+    },
+    "datatable": {
+        "filters": {
+            "search": "Buscar..."
+        },
+        "currentPageReportTemplate": "Mostrando {'{first}'} hasta {'{last}'} de {'{totalRecords}'} suscripciónes",
+        "empty": "No se encontraron suscripciónes."
+    },
+    "error": "Error recuperando la suscripción ({id})",
+    "actions": "Acciones",
+    "search": "Buscar",
+    "save": "Guardar",
+    "store": {
+        "title": "Crear suscripción",
+        "success": "Suscripción guardada",
+        "error": "Error guardando suscripción"
+    },
+    "update": {
+        "title": "Actualizar suscripción",
+        "success": "suscripción ({id}) actualizada",
+        "error": "Error actualizando suscripción ({id})"
+    },
+    "delete": {
+        "title": "Eliminar suscripción",
+        "confirm": {
+            "message": "¿Está seguro de que quiere proceder?",
+            "reject": "Cancelar"
+        },
+        "success": "suscripción ({id}) eliminada",
+        "error": "Error eliminando suscripción ({id})"
+    }
+}

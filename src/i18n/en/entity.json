@@ -1,0 +1,79 @@
+{
+    "attributes": {
+        "name": "name",
+        "alias": "alias",
+        "crn": "NIF",
+        "population": "population",
+        "province": "province",
+        "postal_code": "postal code",
+        "active": "active",
+        "created_at": "created",
+        "updated_at": "updated",
+        "phone": "phone",
+        "address": "address",
+        "emails": "email addresses",
+        "emails_sending_invoice": "emails invoice",
+        "website": "website",
+        "payment_due_days": "payment due days",
+        "tax_exempt": "tax exempt",
+        "bank_account_number": "bank account number",
+        "notes": "notes",
+        "payment_methods": "payment methods",
+        "payment_method": "payment method"
+    },
+    "active": {
+        "options": {
+            "all": "All",
+            "active": "Active",
+            "inactive": "Inactive"
+        }
+    },
+    "payment_method": {
+        "placeholder": {
+            "loading": "Loading payment methods...",
+            "single": "Select a payment method",
+            "multiple": "Select payment methods"
+        },
+        "error": "Error retrieving payment methods"
+    },
+    "query": {
+        "filters": {
+            "clear": "Clear filters"
+        }
+    },
+    "datatable": {
+        "filters": {
+            "search": "Search..."
+        },
+        "currentPageReportTemplate": "Showing {'{first}'} to {'{last}'} of {'{totalRecords}'} entities",
+        "empty": "No entities found."
+    },
+    "error": "Error retrieving entity ({id})",
+    "actions" : "Actions",
+    "search": "Search",
+    "save": "Save",
+    "import_csv": {
+        "title": "Import CSV",
+        "success": "Imported CSV ",
+        "error": "Error importing the CSV "
+    },
+    "store": {
+        "title": "Create entity",
+        "success": "Entity saved",
+        "error": "Error saving entity"
+    },
+    "update": {
+        "title": "Update entity",
+        "success": "Entity ({id}) updated",
+        "error": "Error updating entity ({id})"
+    },
+    "delete": {
+        "title": "Delete entity",
+        "confirm": {
+            "message": "Are you sure you want to proceed?",
+            "reject": "Cancel"
+        },
+        "success": "Entity ({id}) deleted",
+        "error": "Error deleting entity ({id})"
+    }
+}

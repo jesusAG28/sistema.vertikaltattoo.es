@@ -1,0 +1,113 @@
+{
+    "home" : {
+        "label" : "Inicio",
+        "breadcrumb": "Inicio"
+    },
+    "entities": {
+        "label": "Asociados",
+        "breadcrumb": "Asociados",
+        "new": {
+            "breadcrumb": "Nuevo"
+        },
+        "edit": {
+            "breadcrumb": "Editar"
+        }
+    },
+    "subscriptions": {
+        "label": "Suscripciones",
+        "breadcrumb": "Suscripciones",
+        "new": {
+            "breadcrumb": "Nueva"
+        },
+        "edit": {
+            "breadcrumb": "Editar"
+        }
+    },
+    "service_types": {
+        "label": "Tipos de Servicios",
+        "breadcrumb": "Tipos de Servicios",
+        "new": {
+            "breadcrumb": "Nuevo"
+        },
+        "edit": {
+            "breadcrumb": "Editar"
+        }
+    },
+    "billing_cycles": {
+        "label": "Ciclos de Facturación",
+        "breadcrumb": "Ciclos de Facturación",
+        "new": {
+            "breadcrumb": "Nueva"
+        },
+        "edit": {
+            "breadcrumb": "Editar"
+        }
+    },
+    "entities_subscriptions": {
+        "label": "Contartos",
+        "breadcrumb": "Contratos",
+        "new": {
+            "breadcrumb": "Nueva"
+        },
+        "edit": {
+            "breadcrumb": "Editar"
+        }
+    },
+    "invoices": {
+        "label": "Facturas",
+        "breadcrumb": "Facturas",
+        "new": {
+            "breadcrumb": "Nueva"
+        },
+        "edit": {
+            "breadcrumb": "Editar"
+        }
+    },
+    "users": {
+        "label": "Usuarios",
+        "breadcrumb": "Usuarios",
+        "new": {
+            "breadcrumb": "Nuevo"
+        },
+        "edit": {
+            "breadcrumb": "Editar"
+        },
+        "list": {
+            "label": "Listado",
+            "breadcrumb": "Listado"
+        }
+    },
+    "settings": {
+        "label": "Configuración",
+        "breadcrumb": "Configuración"
+    },
+    "roles": {
+        "label": "Roles",
+        "breadcrumb": "Roles",
+        "new": {
+            "breadcrumb": "Nuevo"
+        },
+        "edit": {
+            "breadcrumb": "Editar"
+        }
+    },
+    "salesevolution": {
+        "label": "Evolución de ventas",
+        "breadcrumb": "Evolución de ventas"
+    },
+    "topcustomers": {
+        "label": "Ranking de clientes",
+        "breadcrumb": "Ranking de clientes"
+    },
+    "profile": {
+        "breadcrumb": "Perfil"
+    },
+    "statistics": {
+        "label": "Estadísticas",
+        "breadcrumb": "Estadísticas"
+    },
+    "administration": {
+        "label": "Admin y Finanzas",
+        "breadcrumb": "Admin y Finanzas"
+    }
+}

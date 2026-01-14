@@ -1,0 +1,76 @@
+{
+    "attributes": {
+        "name": "name",
+        "email": "email",
+        "image": "image",
+        "role": "role",
+        "roles": "roles",
+        "active": "active",
+        "password": "password",
+        "password_confirmation": "password confirmation",
+        "preferences": {
+            "locale": "language",
+            "theme": "theme"
+        },
+        "created_at": "created",
+        "updated_at": "updated"
+    },
+    "active": {
+        "options": {
+            "all": "All",
+            "active": "Active",
+            "inactive": "Inactive"
+        }
+    },
+    "preferences": {
+        "theme": {
+            "options": {
+                "light": "Light",
+                "dark": "Dark"
+            }
+        }
+    },
+    "roles": {
+        "placeholder": {
+            "loading": "Loading roles...",
+            "single": "Select role",
+            "multiple": "Select roles"
+        },
+        "error": "Error retrieving user roles"
+    },
+    "query": {
+        "filters": {
+            "clear": "Clear filters"
+        }
+    },
+    "datatable": {
+        "filters": {
+            "search": "Search..."
+        },
+        "currentPageReportTemplate": "Showing {'{first}'} to {'{last}'} of {'{totalRecords}'} users",
+        "empty": "No users found."
+    },
+    "error": "Error retrieving user ({id})",
+    "actions" : "Actions",
+    "search": "Search",
+    "save": "Save",
+    "store": {
+        "title": "Create user",
+        "success": "User saved",
+        "error": "Error saving user"
+    },
+    "update": {
+        "title": "Update user",
+        "success": "User ({id}) updated",
+        "error": "Error updating user ({id})"
+    },
+    "delete": {
+        "title": "Delete user",
+        "confirm": {
+            "message": "Are you sure you want to proceed?",
+            "reject": "Cancel"
+        },
+        "success": "User ({id}) deleted",
+        "error": "Error deleting user ({id})"
+    }
+}

@@ -1,0 +1,179 @@
+{
+    "attributes": {
+        "full_number": "nº Factura",
+        "serie": "serie",
+        "serie_id": "serie",
+        "number": "numero",
+        "active": "activo",
+        "entity": "asociado",
+        "entity_id": "asociado",
+        "entity_name": "asociado",
+        "entity_crn": "NIF Asociado",
+        "entity_address": "Direccion Asociado",
+        "entity_population": "Poblacion Asociado",
+        "entity_province": "Provincia Asociado",
+        "entity_postal_code": "Codigo postar Asociado",
+        "issuer_id": "emisor",
+        "issuer": "emisor",
+        "payment_method": "Metodo de pago",
+        "payment_method_id": "Metodo de pago",
+        "date": "Fecha",
+        "date_start": "Fecha desde",
+        "date_end": "Fecha hasta",
+        "notes": "notas de la factura",
+        "sended_at": "fecha de envio",
+        "sended": "enviado",
+        "paid_at": "fecha de pago",
+        "paid": "pagado",
+        "total_price": "neto",
+        "total_tax_amount": "IVA",
+        "total_amount": "total",
+        "laf_status": "tipo",
+        "laf_status_id": "tipo"
+    },
+    "active": {
+        "options": {
+            "all": "Todos",
+            "active": "Activos",
+            "inactive": "Inactivos"
+        }
+    },
+    "type_rectify": {
+        "title": "Tipo de factura recticativa",
+        "complete": "Completa",
+        "partial": "Parcial",
+        "placeholder": {
+            "loading": "Cargando los tipos de rectificacion...",
+            "single": "Seleccione el tipo de rectificacion",
+            "multiple": "Seleccione los tipos de rectificacion"
+        }
+    },
+    "entity": {
+        "placeholder": {
+            "loading": "Cargando entidades...",
+            "single": "Seleccione una entidad",
+            "multiple": "Seleccione entidades"
+        },
+        "error": "Error recuperando entidades"
+    },
+    "payment_method": {
+        "placeholder": {
+            "loading": "Cargando metodos de pago...",
+            "single": "Seleccione un metodo de pago",
+            "multiple": "Seleccione los metodos de pago"
+        },
+        "error": "Error recuperando los metodos de pago"
+    },
+    "laf_status": {
+        "placeholder": {
+            "loading": "Cargando tipos de factura...",
+            "single": "Seleccione tipo de factura",
+            "multiple": "Seleccione tipos de factura"
+        },
+        "error": "Error recuperando tipos de factura",
+        "draft": "Borrador",
+        "official": "Oficial",
+        "rectificative": "Rectificativa",
+        "officialize_action": "Oficializar",
+        "rectificative_action": "Rectificar",
+        "officialize_question": "¿Desea oficializar este borrador?",
+        "rectificative_question": "¿Desea rectificar esta factura?"
+    },
+    "serie": {
+        "placeholder": {
+            "loading": "Cargando las series...",
+            "single": "Seleccione la serie",
+            "multiple": "Seleccione las series"
+        },
+        "error": "Error recuperando las series"
+    },
+    "invoice_item": {
+        "placeholder": {
+            "loading": "Cargando las lineas de factura...",
+            "single": "Seleccione una linea de factura",
+            "multiple": "Seleccione las lineas de factura"
+        },
+        "error": "Error recuperando las lineas de factura"
+    },
+    "query": {
+        "filters": {
+            "clear": "Limpiar filtros"
+        }
+    },
+    "datatable": {
+        "filters": {
+            "search": "Buscar..."
+        },
+        "currentPageReportTemplate": "Mostrando {'{first}'} hasta {'{last}'} de {'{totalRecords}'} facturas",
+        "empty": "No se encontraron facturas."
+    },
+    "error": "Error recuperando la factura ({id})",
+    "search": "Buscar",
+    "save": "Guardar",
+    "accept": "Acceptar",
+    "rectify": "Rectificar",
+    "actions": "Acciones",
+    "import_csv": {
+        "title": "Importar CSV",
+        "success": "CSV importado",
+        "error": "Error importando el CSV",
+        "error_format": "El fichero deber ser del tipo CSV"
+    },
+    "officialize": {
+        "title": "Officializar factura",
+        "success": "Factrua officializada",
+        "error": "Error officializando la factura"
+    },
+    "rectificative": {
+        "title": "Rectificar factura",
+        "success": "Factrua rectificada",
+        "error": "Error rectificando la factura"
+    },
+    "make_pdf": {
+        "title": " factura",
+        "success": "Pdf de la factura creada",
+        "error": "Error haciendo el pdf de la factura"
+    },
+    "send_email": {
+        "title": "Enviar factura al cliente",
+        "success": "Factura enviada correctamente",
+        "error": "Error enviardo la factura"
+    },
+    "store": {
+        "title": "Crear factura",
+        "success": "Factura guardada",
+        "error": "Error guardando la factura"
+    },
+    "update": {
+        "title": "Actualizar factura",
+        "success": "Factura ({id}) actualizada",
+        "error": "Error actualizando la factura ({id})"
+    },
+    "delete": {
+        "title": "Eliminar factura",
+        "confirm": {
+            "message": "¿Está seguro de que quiere proceder?",
+            "reject": "Cancelar"
+        },
+        "success": "Factura ({id}) eliminada",
+        "error": "Error eliminando la factura ({id})"
+    },
+    "template_dialog": {
+        "title": "Importador de facturas de servicios",
+        "download_section": "Descargar plantilla",
+        "download_description": "Descarga la plantilla de Excel para cargar tus facturas de forma masiva.",
+        "download_button": "Descargar Plantilla",
+        "upload_section": "Cargar plantilla completada",
+        "upload_description": "Sube la plantilla de Excel completada con tus facturas para procesarlas.",
+        "upload_button": "Seleccionar archivo",
+        "close": "Cerrar"
+    },
+    "download_template": {
+        "title": "Descargar Plantilla de Facturas de Servicios",
+        "description": "Haz clic en el botón de abajo para descargar la plantilla.",
+        "button": "Descargar Plantilla",
+        "filename": "plantilla_facturas_servicios.xlsx",
+        "success": "Plantilla descargada correctamente",
+        "error": "Error descargando la plantilla"
+    }
+}

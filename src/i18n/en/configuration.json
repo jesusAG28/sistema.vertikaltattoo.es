@@ -1,0 +1,48 @@
+{
+	"attributes": {
+		"issuer_alias": "Issuer alias",
+		"issuer_name": "Issuer name",
+		"issuer_crn": "Issuer NIF",
+		"issuer_address": "Issuer address",
+		"issuer_population": "Issuer city",
+		"issuer_province": "Issuer province",
+		"issuer_postal_code": "Issuer postal code"
+	},
+	"query": {
+		"filters": {
+			"clear": "Clear filters"
+		}
+	},
+	"datatable": {
+		"filters": {
+			"search": "Search..."
+		},
+		"currentPageReportTemplate": "Showing {'{first}'} to {'{last}'} of {'{totalRecords}'} configuration",
+		"empty": "No configuration found."
+	},
+	"error": {
+		"default": "Error retrieving configuration",
+		"issuer": "Error retrieving issuer data from configuration"
+	},
+	"search": "Search",
+	"save": "Save",
+	"store": {
+		"title": "Create configuration",
+		"success": "Configuration saved",
+		"error": "Error saving configuration"
+	},
+	"update": {
+		"title": "Update configuration",
+		"success": "Configuration updated",
+		"error": "Error updating configuration"
+	},
+	"delete": {
+		"title": "Delete configuration",
+		"confirm": {
+			"message": "Are you sure you want to proceed?",
+			"reject": "Cancel"
+		},
+		"success": "Configuration deleted",
+		"error": "Error deleting configuration"
+	}
+}

@@ -1,0 +1,57 @@
+{
+    "attributes": {
+        "service_type_id": "Tipo Servicio",
+        "description": "descripcion",
+        "price": "precio",
+        "discount_percentage": "Descuento %",
+        "surcharge_percentage" : "Recargo %",
+        "tax_type_id" : "%IVA",
+        "total" : "total",
+        "net_subtotal": "Subtotal Neto"
+    },
+    "tax_types" : {
+        "placeholder": {
+            "loading": "Cargando los tipos de IVA...",
+            "single": "Seleccione un tipo de IVA",
+            "multiple": "Seleccione los tipos de IVA"
+        },
+        "error": "Error recuperando los tipos de IVA"
+    },
+    "service_types" : {
+        "placeholder": {
+            "loading": "Cargando los tipos de servicios...",
+            "single": "Seleccione un tipo de servicios",
+            "multiple": "Seleccione los tipos de servicios"
+        },
+        "error": "Error recuperando los tipos de servicios"
+    },
+    "datatable": {
+        "filters": {
+            "search": "Buscar..."
+        },
+        "currentPageReportTemplate": "Mostrando {'{first}'} hasta {'{last}'} de {'{totalRecords}'} los elementos de las factura",
+        "empty": "No se encontraron los elementos de las facturas."
+    },
+    "save": "Guardar",
+    "accept": "Acceptar",
+    "actions": "Acciones",
+    "store": {
+        "title": "Crear line de factura",
+        "success": "Linea de factura guardada",
+        "error": "Error guardando la linea de factura"
+    },
+    "update": {
+        "title": "Actualizar linea de factura",
+        "success": "Línea de factura ({id}) actualizada",
+        "error": "Error actualizando línea de la factura ({id})"
+    },
+    "delete": {
+        "title": "Eliminar linea de factura",
+        "confirm": {
+            "message": "¿Está seguro de que quiere proceder?",
+            "reject": "Cancelar"
+        },
+        "success": "Linea de factura nº{id} eliminado",
+        "error": "Error eliminando la linea de factura nº({id})"
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "home" : {
+        "label" : "Home",
+        "breadcrumb": "Home"
+    },
+    "entities": {
+        "label": "Entities",
+        "breadcrumb": "Entities",
+        "new": {
+            "breadcrumb": "New"
+        },
+        "edit": {
+            "breadcrumb": "Edit"
+        }
+    },
+    "subscriptions": {
+        "label": "Subscriptions",
+        "breadcrumb": "Subscriptions",
+        "new": {
+            "breadcrumb": "New"
+        },
+        "edit": {
+            "breadcrumb": "Edit"
+        }
+    },
+    "service_types": {
+        "label": "Service types",
+        "breadcrumb": "Service types",
+        "new": {
+            "breadcrumb": "New"
+        },
+        "edit": {
+            "breadcrumb": "Edit"
+        }
+    },
+    "billing_cycles": {
+        "label": "Billing cycles",
+        "breadcrumb": "Billing cycles",
+        "new": {
+            "breadcrumb": "New"
+        },
+        "edit": {
+            "breadcrumb": "Edit"
+        }
+    },
+    "entities_subscriptions": {
+        "label": "Entities subscriptions",
+        "breadcrumb": "Entities subscriptions",
+        "new": {
+            "breadcrumb": "New"
+        },
+        "edit": {
+            "breadcrumb": "Edit"
+        }
+    },
+    "invoices": {
+        "label": "Facturas",
+        "breadcrumb": "Facturas",
+        "new": {
+            "breadcrumb": "Nueva"
+        },
+        "edit": {
+            "breadcrumb": "Editar"
+        }
+    },
+    "users": {
+        "label": "Users",
+        "breadcrumb": "Users",
+        "new": {
+            "breadcrumb": "New"
+        },
+        "edit": {
+            "breadcrumb": "Edit"
+        },
+        "list": {
+            "label": "List",
+            "breadcrumb": "List"
+        }
+    },
+    "settings": {
+        "label": "Settings",
+        "breadcrumb": "Settings"
+    },
+    "roles": {
+        "label": "Roles",
+        "breadcrumb": "Roles",
+        "new": {
+            "breadcrumb": "New"
+        },
+        "edit": {
+            "breadcrumb": "Edit"
+        }
+    },
+    "salesevolution": {
+        "label": "Sales evolution",
+        "breadcrumb": "Sales evolution"
+    },
+    "topcustomers": {
+        "label": "Top customers",
+        "breadcrumb": "Top customers"
+    },
+    "profile": {
+        "breadcrumb": "Profile"
+    },
+    "statistics": {
+        "label": "Statistics",
+        "breadcrumb": "Statistics"
+    },
+    "administration": {
+        "label": "administration",
+        "breadcrumb": "administration"
+    }
+}

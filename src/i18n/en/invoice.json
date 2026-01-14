@@ -1,0 +1,177 @@
+{
+    "attributes": {
+        "full_number": "nº Invoice",
+        "serie": "series",
+        "serie_id": "serie",
+        "number": "number",
+        "active": "active",
+        "entity": "associated",
+        "entity_id": "associated id",
+        "entity_name": "associated name",
+        "entity_crn": "associated tax id",
+        "entity_address": "associated address",
+        "entity_population": "associated city",
+        "entity_province": "associated province",
+        "entity_postal_code": "associated postal code",
+        "issuer_id": "issuer",
+        "issuer": "issuer",
+        "payment_method": "payment method",
+        "payment_method_id": "payment method",
+        "date": "date",
+        "date_start": "date start",
+        "date_end": "date end",
+        "notes": "invoice notes",
+        "sended_at": "sent at",
+        "sended": "sent",
+        "paid_at": "paid at",
+        "paid": "paid",
+        "total_price": "net",
+        "total_tax_amount": "tax",
+        "total_amount": "total",
+        "laf_status": "type",
+        "laf_status_id": "type"
+    },
+    "active": {
+        "options": {
+            "all": "All",
+            "active": "Active",
+            "inactive": "Inactive"
+        }
+    },
+    "type_rectify": {
+        "title": "Rectifying invoice type",
+        "complete": "Complete",
+        "partial": "Partial",
+        "placeholder": {
+            "loading": "Loading rectify types...",
+            "single": "Select rectify type",
+            "multiple": "Select rectify types"
+        }
+    },
+    "entity": {
+        "placeholder": {
+            "loading": "Loading entities...",
+            "single": "Select an entity",
+            "multiple": "Select entities"
+        },
+        "error": "Error retrieving entities"
+    },
+    "payment_method": {
+        "placeholder": {
+            "loading": "Loading payment methods...",
+            "single": "Select a payment method",
+            "multiple": "Select payment methods"
+        },
+        "error": "Error retrieving payment methods"
+    },
+    "laf_status": {
+        "placeholder": {
+            "loading": "Loading invoice types...",
+            "single": "Select invoice type",
+            "multiple": "Select invoice types"
+        },
+        "error": "Error retrieving invoice types",
+        "draft": "Draft",
+        "official": "Official",
+        "rectificative": "Rectificative",
+        "officialize_action": "Officialize",
+        "rectificative_action": "Rectify",
+        "officialize_question": "Do you want to officialize this draft?",
+        "rectificative_question": "Do you want to rectify this invoice?"
+    },
+    "serie": {
+        "placeholder": {
+            "loading": "Loading the series...",
+            "single": "Select the series",
+            "multiple": "Select the series"
+        },
+        "error": "Error retrieving the series"
+    },
+    "invoice_item": {
+        "placeholder": {
+            "loading": "Loading invoice lines...",
+            "single": "Select an invoice line",
+            "multiple": "Select invoice lines"
+        },
+        "error": "Error retrieving invoice lines"
+    },
+    "query": {
+        "filters": {
+            "clear": "Clear filters"
+        }
+    },
+    "datatable": {
+        "filters": {
+            "search": "Search..."
+        },
+        "currentPageReportTemplate": "Showing {'{first}'} to {'{last}'} of {'{totalRecords}'} invoices",
+        "empty": "No invoices found."
+    },
+    "error": "Error retrieving invoice ({id})",
+    "search": "Search",
+    "save": "Save",
+    "accept": "Accept",
+    "rectify": "Rectify",
+    "actions": "Actions",
+    "import_csv": {
+        "title": "Import CSV",
+        "success": "Imported CSV ",
+        "error": "Error importing the CSV ",
+        "error_format": "The file must be of type CSV"
+    },
+    "officialize": {
+        "title": "Officialize invoice",
+        "success": "Invoice officialized",
+        "error": "Error officializing invoice"
+    },
+    "rectificative": {
+        "title": "Rectify invoice",
+        "success": "Invoice rectified",
+        "error": "Error rectifying invoice"
+    },
+    "make_pdf": {
+        "title": "Generate invoice PDF",
+        "success": "Invoice PDF created",
+        "error": "Error creating invoice PDF"
+    },
+    "send_email": {
+        "title": "Send invoice to customer",
+        "success": "Invoice sent successfully",
+        "error": "Error sending the invoice"
+    },
+    "store": {
+        "title": "Create invoice",
+        "success": "Invoice saved",
+        "error": "Error saving the invoice"
+    },
+    "update": {
+        "title": "Update invoice",
+        "success": "Invoice ({id}) updated",
+        "error": "Error updating invoice ({id})"
+    },
+    "delete": {
+        "title": "Delete invoice",
+        "confirm": {
+            "message": "Are you sure you want to proceed?",
+            "reject": "Cancel"
+        },
+        "success": "Invoice ({id}) deleted",
+        "error": "Error deleting invoice ({id})"
+    },
+    "template_dialog": {
+        "title": "Services Invoice Importer",
+        "download_section": "Download Template",
+        "download_description": "Download the Excel template to bulk upload your invoices.",
+        "download_button": "Download Template",
+        "upload_section": "Upload Template",
+        "upload_description": "After filling out the template, you can upload it here to import your invoices."
+    },
+    "download_template": {
+        "title": "Download Services Invoice Template",
+        "description": "Click the button below to download the template.",
+        "button": "Download Template",
+        "filename": "services_invoice_template.xlsx",
+        "success": "Template downloaded successfully",
+        "error": "Error downloading the template"
+    }
+}

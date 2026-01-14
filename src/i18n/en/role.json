@@ -1,0 +1,37 @@
+{
+    "attributes": {
+        "name": "name",
+        "guard_name": "authentication type",
+        "created_at": "created",
+        "updated_at": "updated"
+    },
+    "datatable": {
+        "filters": {
+            "search": "Search..."
+        },
+        "currentPageReportTemplate": "Showing {'{first}'} to {'{last}'} of {'{totalRecords}'} loading places",
+        "empty": "No rol found."
+    },
+    "error": "Error retrieving rol ({id})",
+    "search": "Search",
+    "save": "Save",
+    "store": {
+        "title": "Create rol",
+        "success": "Rol saved",
+        "error": "Error saving rol"
+    },
+    "update": {
+        "title": "Update rol",
+        "success": "Rol ({id}) updated",
+        "error": "Error updating rol ({id})"
+    },
+    "delete": {
+        "title": "Delete rol",
+        "confirm": {
+            "message": "Are you sure you want to proceed?",
+            "reject": "Cancel"
+        },
+        "success": "Rol ({id}) deleted",
+        "error": "Error deleting rol ({id})"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Dashboard",
+    "loading": "Loading...",
+    "refresh": "Refresh",
+    "no_data":"No data available",
+    "year": "Year",
+    "monthly_comparison": "Monthly comparison evolution",
+    "service_type": "Service Type",
+    "service_type_distribution": "Distribution by service type",
+    "overdue_invoices": "Overdue invoices",
+    "no_overdue_invoices": "No overdue invoices"
+}

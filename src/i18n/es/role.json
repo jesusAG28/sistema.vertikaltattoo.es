@@ -1,0 +1,37 @@
+{
+    "attributes": {
+        "name": "nombre",
+        "guard_name": "tipo de autenticacion",
+        "created_at": "creado",
+        "updated_at": "actualizado"
+    },
+    "datatable": {
+        "filters": {
+            "search": "Buscar..."
+        },
+        "currentPageReportTemplate": "Mostrando {'{first}'} hasta {'{last}'} de {'{totalRecords}'} lugares de carga",
+        "empty": "No se encontraron roles."
+    },
+    "error": "Error recuperando rol({id})",
+    "search": "Buscar",
+    "save": "Guardar",
+    "store": {
+        "title": "Crear rol",
+        "success": "rol guardado",
+        "error": "Error guardando rol"
+    },
+    "update": {
+        "title": "Actualizar rol",
+        "success": "rol ({id}) actualizado",
+        "error": "Error actualizando rol ({id})"
+    },
+    "delete": {
+        "title": "Eliminar rol",
+        "confirm": {
+            "message": "¿Está seguro de que quiere proceder?",
+            "reject": "Cancelar"
+        },
+        "success": "rol ({id}) eliminado",
+        "error": "Error eliminando rol ({id})"
+    }
+}

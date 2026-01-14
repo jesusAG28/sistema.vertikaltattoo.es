@@ -1,0 +1,79 @@
+{
+    "login": {
+        "title": "Inicio de sesión",
+        "heading": "Introduzca nombre de usuario y contraseña para iniciar sesión.",
+        "form": {
+            "email": "email",
+            "password": "contraseña",
+            "submit": "Iniciar sesión"
+        },
+        "remember_me": "Recuérdame",
+        "forgot_password": "¿Ha olvidado la contraseña?",
+        "error": {
+            "summary": "Error iniciando sesión",
+            "credentials": {
+                "detail": "Credenciales incorrectas."
+            }
+        }
+    },
+    "forgot_password": {
+        "title": "Contraseña olvidada",
+        "heading": "Introduzca email para reestablecer contraseña",
+        "form": {
+            "email": "email",
+            "submit": "Enviar"
+        },
+        "error": {
+            "summary": "Error solicitando enlace para reestablecer contraseña",
+            "credentials": {
+                "detail": "Credenciales incorrectas."
+            }
+        }
+    },
+    "reset_password": {
+        "title": "Reestablecer contraseña",
+        "heading": "Introduzca nueva contraseña",
+        "form": {
+            "password": "nueva contraseña",
+            "password_confirmation": "confirmación nueva contraseña",
+            "submit": "Reestablecer"
+        },
+        "error": {
+            "summary": "Error reestableciendo contraseña",
+            "credentials": {
+                "detail": "Credenciales incorrectas."
+            }
+        }
+    },
+    "profile": {
+        "personal_information": {
+            "title": "Informacion personal",
+            "save": "Guardar",
+            "success": "Información personal de usuario guardada",
+            "error": "Error guardando información personal de usuario"
+        },
+        "preferences": {
+            "title": "Preferencias",
+            "save": "Guardar",
+            "success": "Preferencias de usuario guardadas",
+            "error": "Error guardando preferencias de usuario"
+        },
+        "change_password": {
+            "title": "Cambiar contraseña",
+            "input": {
+                "current": "contraseña actual",
+                "password": "nueva contraseña",
+                "password_confirmation": "confirmación nueva contraseña"
+            },
+            "save": "Cambiar",
+            "success": "Constraseña cambiada",
+            "error": "Error cambiando contraseña"
+        },
+        "logout_other_sessions": {
+            "title": "Cerrar otras sesiones abiertas",
+            "save": "Cerrar otras sesiones abiertas",
+            "success": "Cerradas otras sesiones abiertas",
+            "error": "Error cerrando otras sesiones"
+        }
+    }
+}

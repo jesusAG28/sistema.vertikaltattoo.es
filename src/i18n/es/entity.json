@@ -1,0 +1,80 @@
+{
+    "attributes": {
+        "name": "nombre",
+        "alias": "alias",
+        "crn": "NIF",
+        "population": "poblacion",
+        "province": "provincia",
+        "postal_code": "codigo postal",
+        "active": "activa",
+        "created_at": "creado",
+        "updated_at": "actualizado",
+        "phone": "telefono",
+        "address": "direccion",
+        "emails": "correo electronico",
+        "emails_sending_invoice": "correos facturas",
+        "website": "paguina web",
+        "payment_due_days": "dias vencimiento pago",
+        "tax_exempt": "exento de impuestos",
+        "bank_account_number": "numero de cuenta",
+        "notes": "notas",
+        "payment_methods" : "metodos de pago", 
+        "payment_method" : "metodo de pago" 
+    },
+    "active": {
+        "options": {
+            "all": "Todas",
+            "active": "Activas",
+            "inactive": "Inactivas"
+        }
+    },
+    "payment_method": {
+        "placeholder": {
+            "loading": "Cargando metodos de pago...",
+            "single": "Seleccione un metodo de pago",
+            "multiple": "Seleccione los metodos de pago"
+        },
+        "error": "Error recuperando los metodos de pago"
+    },
+    "query": {
+        "filters": {
+            "clear": "Limpiar filtros"
+        }
+    },
+    "datatable": {
+        "filters": {
+            "search": "Buscar..."
+        },
+        "currentPageReportTemplate": "Mostrando {'{first}'} hasta {'{last}'} de {'{totalRecords}'} asociados",
+        "empty": "No se encontraron asociados."
+    },
+    "error": "Error recuperando asociado ({id})",
+    "actions" : "Acciones",
+    "search": "Buscar",
+    "save": "Guardar",
+    "import_csv": {
+        "title": "Importar CSV",
+        "success": "CSV importado",
+        "error": "Error importando el CSV",
+        "error_format" : "El fichero deber ser del tipo CSV"
+    },
+    "store": {
+        "title": "Crear asociado",
+        "success": "Asociado guardado",
+        "error": "Error guardando asociado"
+    },
+    "update": {
+        "title": "Actualizar asociado",
+        "success": "Asociado ({id}) actualizado",
+        "error": "Error actualizando asociado ({id})"
+    },
+    "delete": {
+        "title": "Eliminar asociado",
+        "confirm": {
+            "message": "¿Está seguro de que quiere proceder?",
+            "reject": "Cancelar"
+        },
+        "success": "Asociado ({id}) eliminado",
+        "error": "Error eliminando asociado ({id})"
+    }
+}
